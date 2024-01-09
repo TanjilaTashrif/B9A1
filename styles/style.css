@@ -89,6 +89,7 @@ mid-container {
   text-transform: capitalize;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 80px;
 }
 
 .text-black {
@@ -126,61 +127,83 @@ mid-container {
   line-height: normal;
 }
 
-.product{
+.product {
   display: flex;
   justify-content: center;
   gap: 24px;
   margin-bottom: 24px;
 
 }
-.product-text{
+
+.product-text {
   padding-left: 100px;
 }
-.subscribe{
+
+.subscribe {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
 }
-.img-subs{
+
+.img-subs {
   width: 150px;
-height: 150px;
-margin: auto;
+  height: 150px;
+  margin: auto;
 }
-.input-box{
-display: flex;
-gap:0 ;
+
+.input-box {
+  display: flex;
+  gap: 0;
 }
-.input-email{
-  border-radius:100px 0px 0px 100px;
+
+.input-email {
+  border-radius: 100px 0px 0px 100px;
   width: 400px;
   padding-left: 20px;
 }
-.btn-subscribe{
+
+.btn-subscribe {
   width: 210px;
   height: 72px;
   background-color: #F00;
-  border-radius:0px 100px 100px 0px;
+  border-radius: 0px 100px 100px 0px;
 }
-footer{
-  background-color:#070211;
+
+footer {
+  background-color: #070211;
   margin-top: 150px;
-padding: 50px 50px;
+  padding: 50px 50px;
 }
-.footer-info{
+
+.footer-info {
   display: flex;
   justify-content: space-between;
   color: #FFF;
 }
-.social-icon{
+
+.social-icon {
   display: flex;
   justify-content: center;
   gap: 24px;
 }
-.contact{
+
+.contact {
   display: flex;
   gap: 5px;
 }
 
+.discount {
+  position: absolute;
+  right: 500px;
+}
 
+.red-lady {
+  height: 600px;
+}
 
+.surprise-box {
+  position: relative;
+  top: 200px;
+
+}
